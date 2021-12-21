@@ -23,5 +23,7 @@ function validarSenha(){
 
     if(senha == "" || senha.length <= 5){
         document.getElementById("erroSenha").innerHTML = "Preencha com 6 caracteres";
+    }else{
+        document.getElementById("erroSenha").innerHTML = "Senha Válida";
     }
 }
